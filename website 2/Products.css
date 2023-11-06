@@ -1,0 +1,98 @@
+img{
+    width: 50%;
+    height: 40%;
+}
+
+
+
+
+body{
+    background-color: wheat;
+    background-image: url("desktop1.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+
+    width: 100%;
+    background-color:black;
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+}
+
+
+
+.logo{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+    
+    
+}
+
+header i{
+    color: white;
+    font-size: xx-large;
+    margin-left: -5%;
+    
+}
+
+
+section{
+    padding: 4rem 0 3rem;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+
+}
+
+.section-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+.shop{
+    margin-top: -2rem;
+}
+
+.shop-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, auto));
+    gap:2.5rem;
+    row-gap: 3rem;
+}
+
+.product-box{
+    border: solid white;
+    background-color:#F5FFFA;
+    padding:10px;
+    height: 70%;
+       position:relative;
+       border-radius: 20px 20px;
+}
+
+.product-box:hover{
+    padding: 10px;
+    border: 1px solid ;
+    transition: 0.4s;
+}

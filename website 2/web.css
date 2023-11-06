@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-image: url("desktop5.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header{
+  top: 0%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  background-color:white;
+}
+
+
+header i{
+  margin-left:2.5%;
+  font-size: xx-large;
+  margin-top: 1.4%;
+}
+
+
+header h2{
+  margin-left:0%;
+ 
+}
+
+header button{
+  margin-right: 3%;
+  margin-top:12px;
+  margin-bottom: 12px;
+  width: 6%;
+  margin-left: 65%;
+  
+}
+
+
+
+ul{ list-style-type: none;
+  margin-top:5%;
+  margin-left: 0%;
+  position: fixed;
+  width: 100%;
+      font-size: large;
+      padding: 0%;
+      background-color:black;
+      overflow: hidden;
+      transform: 2s;
+  }
+  
+
+
+  li a {
+    display: block;
+    color:white;
+    padding: 10px 66px;
+    text-decoration: none;
+    
+}
+
+li{
+  float: left;
+
+}
+
+ ul :hover{
+  transition: 0.5s;
+  background-color:white ;
+  color: black;
+ }
+
+
+ img{
+  width:50%;
+  margin-left:10px ;
+padding:-1000px;
+  margin-top:10%;
+  border-radius:0%;
+  border-style: solid black;
+}
+
+section{
+  display: flex;
+
+
+}
+
+.para{
+  margin-top:10%;
+  text-align:justify;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+
+  font-size: large;
+}
